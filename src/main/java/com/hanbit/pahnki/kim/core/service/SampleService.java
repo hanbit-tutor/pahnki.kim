@@ -19,7 +19,7 @@ public class SampleService {
 	@Autowired
 	private MybatisDAO mybatisDAO;
 
-	public void daoTest() throws Exception {
+	public void showDate() throws Exception {
 		simpleDAO.test();
 		dbcpDAO.test();
 		mybatisDAO.test();

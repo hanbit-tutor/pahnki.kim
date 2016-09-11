@@ -22,7 +22,7 @@ public class SpringApplication {
 
 			SampleService sampleService = context.getBean(SampleService.class);
 
-			sampleService.daoTest();
+			sampleService.showDate();
 		} catch (Exception e) {
 			LOGGER.error(e.getMessage(), e);
 		}

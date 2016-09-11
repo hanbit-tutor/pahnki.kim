@@ -1,4 +1,4 @@
-package com.hanbit.pahnki.kim.standalone;
+package com.hanbit.pahnki.kim.application;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
